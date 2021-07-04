@@ -1,0 +1,85 @@
+﻿@model IEnumerable<EShopCinema.Web.Models.Domain.TicketCinema>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New Ticket</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieWatchType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieHall)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RowNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SeatNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketMoviePrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieStartTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MovieENDTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketUntilDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieWatchType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieHall)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RowNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SeatNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketMoviePrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieStartTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieENDTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketUntilDate)
+            </td>
+            <td>
+                <a asp-controller="CinemaTickets" asp-action="AddTicketToCard" asp-route-id="@item.Id">Add to Card</a> |
+                <a asp-controller="CinemaTickets" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-controller="CinemaTickets" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-controller="CinemaTickets" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

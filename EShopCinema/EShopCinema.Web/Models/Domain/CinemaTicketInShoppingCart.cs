@@ -11,7 +11,7 @@ namespace EShopCinema.Web.Models.Domain
         public TicketCinema TicketCinema { get; set; }
         public Guid ShoppingCartId { get; set; }
         public CinemaShoppingCart CinemaShoppingCart { get; set; }
-        //public int TicketsQuantity { get; set; }
+        public int TicketsQuantity { get; set; }
 
     }
 }

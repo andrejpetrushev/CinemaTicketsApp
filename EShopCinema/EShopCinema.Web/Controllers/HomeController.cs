@@ -23,6 +23,12 @@ namespace EShopCinema.Web.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Index(object element)
+        {
+            return RedirectToAction("Index", "Home");
+        }
+
         public IActionResult Privacy()
         {
             return View();

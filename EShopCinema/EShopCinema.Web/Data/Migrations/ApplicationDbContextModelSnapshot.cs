@@ -15,7 +15,7 @@ namespace EShopCinema.Web.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.5")
+                .HasAnnotation("ProductVersion", "3.1.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -45,6 +45,9 @@ namespace EShopCinema.Web.Data.Migrations
                     b.Property<Guid>("ShoppingCartId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int>("TicketsQuantity")
+                        .HasColumnType("int");
+
                     b.HasKey("CinemaTicketId", "ShoppingCartId");
 
                     b.HasIndex("ShoppingCartId");
@@ -58,19 +61,21 @@ namespace EShopCinema.Web.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("MovieENDTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("MovieFullName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("MovieHall")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("MovieLengthTime")
-                        .HasColumnType("datetime2");
-
                     b.Property<DateTime>("MovieStartTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("MovieWatchType")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("RowNum")
@@ -112,6 +117,12 @@ namespace EShopCinema.Web.Data.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -144,12 +155,6 @@ namespace EShopCinema.Web.Data.Migrations
                     b.Property<string>("UserName")
                         .HasColumnType("nvarchar(256)")
                         .HasMaxLength(256);
-
-                    b.Property<string>("firstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("lastName")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

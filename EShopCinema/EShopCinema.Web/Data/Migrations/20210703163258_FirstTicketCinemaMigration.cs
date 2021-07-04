@@ -52,7 +52,7 @@ namespace EShopCinema.Web.Data.Migrations
                     SeatNum = table.Column<int>(nullable: false),
                     TicketMoviePrice = table.Column<int>(nullable: false),
                     MovieStartTime = table.Column<DateTime>(nullable: false),
-                    MovieLengthTime = table.Column<DateTime>(nullable: false),
+                    MovieENDTime = table.Column<DateTime>(nullable: false),
                     TicketUntilDate = table.Column<DateTime>(nullable: false)
                 },
                 constraints: table =>
