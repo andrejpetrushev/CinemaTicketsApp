@@ -4,14 +4,14 @@
     "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\EShopCinema.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\EShopCinema.Web.csproj": {
+    "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\EShopCinema.Web.csproj",
-        "projectName": "EShopCinema.Web",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\EShopCinema.Web.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj",
+        "projectName": "EShopCinema.Domain",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\obj\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,21 +38,301 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.12, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.12, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Repository\\EShopCinema.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Repository\\EShopCinema.Repository.csproj",
+        "projectName": "EShopCinema.Repository",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Repository\\EShopCinema.Repository.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Service\\EShopCinema.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Service\\EShopCinema.Services.csproj",
+        "projectName": "EShopCinema.Services",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Service\\EShopCinema.Services.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShop.Repository\\EShop.Repository.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShop.Repository\\EShop.Repository.csproj"
+              },
+              "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\EShopCinema.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\EShopCinema.Web.csproj",
+        "projectName": "EShopCinema.Web",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\EShopCinema.Web.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Domain\\EShopCinema.Domain.csproj"
+              },
+              "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Repository\\EShopCinema.Repository.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Repository\\EShopCinema.Repository.csproj"
+              },
+              "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Service\\EShopCinema.Services.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Domashna1_IS_181033\\EShopCinema\\EShopCinema.Service\\EShopCinema.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "GemBox.Document": {
+              "target": "Package",
+              "version": "[33.0.1187, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -60,11 +340,15 @@
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[3.1.12, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.12, )"
             }
           },
           "imports": [

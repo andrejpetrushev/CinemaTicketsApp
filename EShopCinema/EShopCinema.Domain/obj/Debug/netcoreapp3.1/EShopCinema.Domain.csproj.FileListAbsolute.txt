@@ -1,0 +1,9 @@
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\obj\Debug\netcoreapp3.1\EShopCinema.Domain.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\obj\Debug\netcoreapp3.1\EShopCinema.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\obj\Debug\netcoreapp3.1\EShopCinema.Domain.AssemblyInfo.cs
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\bin\Debug\netcoreapp3.1\EShopCinema.Domain.deps.json
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\bin\Debug\netcoreapp3.1\EShopCinema.Domain.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\bin\Debug\netcoreapp3.1\EShopCinema.Domain.pdb
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\obj\Debug\netcoreapp3.1\EShopCinema.Domain.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\obj\Debug\netcoreapp3.1\EShopCinema.Domain.pdb
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Domain\obj\Debug\netcoreapp3.1\EShopCinema.Domain.csproj.CoreCompileInputs.cache

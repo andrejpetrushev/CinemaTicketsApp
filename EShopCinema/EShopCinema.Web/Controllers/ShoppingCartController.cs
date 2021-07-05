@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -9,9 +9,20 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using EShopCinema.Web.Models.Domain;
 using EShopCinema.Web.Models.DTO;
-using EShopCinema.Web.Models.Identity;
+using EShopCinema.Web.Models.Identity;*/
 
-namespace EShopCinema.Web.Controllers
+using EShopCinema.Domain.Domain;
+using EShopCinema.Domain.DTO;
+using EShopCinema.Services.Interface;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
+
+/*namespace EShopCinema.Web.Controllers
 {
     public class ShoppingCartController : Controller
     {
@@ -140,6 +151,61 @@ namespace EShopCinema.Web.Controllers
             }
 
             return RedirectToAction("Index", "ShoppingCart");
+        }
+    }
+}*/
+
+
+namespace EShopCinema.Web.Controllers
+{
+    public class ShoppingCartController : Controller
+    {
+
+
+        private readonly IShoppingCartService _shoppingCartService;
+
+        public ShoppingCartController(IShoppingCartService shoppingCartService)
+        {
+            _shoppingCartService = shoppingCartService;
+        }
+
+        public IActionResult Index()
+        {
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            return View(this._shoppingCartService.getShoppingCartInfo(userId));
+        }
+
+        public IActionResult DeleteFromShoppingCart(Guid id)
+        {
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var result = this._shoppingCartService.deleteCinemaTicketFromShoppingCart(userId, id);
+
+            if (result)
+            {
+                return RedirectToAction("Index", "ShoppingCart");
+            }
+            else
+            {
+                return RedirectToAction("Index", "ShoppingCart");
+            }
+        }
+
+        public IActionResult Order()
+        {
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var result = this._shoppingCartService.orderNow(userId);
+
+            if (result)
+            {
+                return RedirectToAction("Index", "ShoppingCart");
+            }
+            else
+            {
+                return RedirectToAction("Index", "ShoppingCart");
+            }
         }
     }
 }

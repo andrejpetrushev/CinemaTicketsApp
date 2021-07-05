@@ -1,4 +1,4 @@
-﻿using EShopCinema.Web.Models.Identity;
+﻿//using EShopCinema.Web.Models.Identity;
 
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using EShopCinema.Domain.Identity;
+using EShop.Domain.Domain;
 
 namespace EShopCinema.Web.Controllers
 {
@@ -45,7 +47,7 @@ namespace EShopCinema.Web.Controllers
                         PhoneNumberConfirmed = true,
                         //UserCart = new Models.Domain.ShoppingCart()                        
                         //CinemaCart = new EShopCinema.Web.Models.Domain.CinemaShoppingCart()
-                        CinemaCart = new Models.Domain.CinemaShoppingCart()
+                        CinemaCart = new EShopCinema.Domain.Domain.CinemaShoppingCart()
                     };
                     var result = await userManager.CreateAsync(user, request.Password);
                     if (result.Succeeded)

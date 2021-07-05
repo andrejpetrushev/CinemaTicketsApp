@@ -1,4 +1,6 @@
-﻿@model IEnumerable<EShopCinema.Web.Models.Domain.TicketCinema>
+﻿@*@model IEnumerable<EShopCinema.Web.Models.Domain.TicketCinema>*@
+@model IEnumerable<EShopCinema.Web.Models.Domain.TicketCinema>
+
 
 @{
     ViewData["Title"] = "Index";
@@ -44,43 +46,49 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.MovieFullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MovieWatchType)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MovieHall)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RowNum)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SeatNum)
-            </td>
-            <td>
-                <i>Price:</i>
-                @Html.DisplayFor(modelItem => item.TicketMoviePrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MovieStartTime)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MovieENDTime)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TicketUntilDate)
-            </td>
-            <td>
-                <a asp-controller="CinemaTickets" asp-action="AddTicketToCard" asp-route-id="@item.Id">Add to Card</a> |
-                <a asp-controller="CinemaTickets" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-controller="CinemaTickets" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-controller="CinemaTickets" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MovieFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MovieWatchType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MovieHall)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RowNum)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SeatNum)
+                </td>
+                <td>
+                    <i>Price:</i>
+                    @Html.DisplayFor(modelItem => item.TicketMoviePrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MovieStartTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MovieENDTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketUntilDate)
+                </td>
+                <td>
+                    <a asp-controller="CinemaTickets" asp-action="AddTicketToCard" asp-route-id="@item.Id">Add to Card</a> |
+                    <a asp-controller="CinemaTickets" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-controller="CinemaTickets" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-controller="CinemaTickets" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<div class="row">
+    <a class="btn btn-outline-success" asp-controller="Order" asp-action="ExportAllOrders">Export Orders</a>
+</div>
+

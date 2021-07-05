@@ -3,7 +3,6 @@ C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Deb
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Web.StaticWebAssets.xml
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Web.exe
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Web.deps.json
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Web.runtimeconfig.json
@@ -14,11 +13,7 @@ C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Deb
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Web.Views.pdb
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -34,8 +29,6 @@ C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Deb
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -176,9 +169,6 @@ C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Deb
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\EShopCinema.Web.csproj.CoreCompileInputs.cache
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\EShopCinema.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\EShopCinema.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\CinemaTickets\Create.cshtml.g.cs
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\CinemaTickets\Delete.cshtml.g.cs
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\CinemaTickets\Details.cshtml.g.cs
@@ -188,3 +178,18 @@ C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Deb
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\CinemaTickets\AddTicketToCard.cshtml.g.cs
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\ShoppingCart.cshtml.g.cs
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Domain.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Repository.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Service.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Service.pdb
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Domain.pdb
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Repository.pdb
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\EShopCinema.Web.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\EShopCinema.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\bin\Debug\netcoreapp3.1\EShopCinema.Services.dll
