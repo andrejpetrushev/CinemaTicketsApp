@@ -13,6 +13,6 @@ namespace EShopCinema.Web.Models.Identity
         public string LastName { get; set; }
         public string Address { get; set; }
         public virtual CinemaShoppingCart CinemaCart { get; set; }
-
+        public virtual CinemaShoppingCart UserCart { get; set; }
     }
 }

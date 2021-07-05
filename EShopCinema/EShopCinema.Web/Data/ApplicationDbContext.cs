@@ -18,6 +18,8 @@ namespace EShopCinema.Web.Data
         public virtual DbSet<TicketCinema> Tickets { get; set; }
         public virtual DbSet<CinemaShoppingCart> CinemaShoppingCarts { get; set;  }
         public virtual DbSet<CinemaTicketInShoppingCart> CinemaTicketInShoppingCarts { get; set; }
+        public virtual DbSet<CinemaTicketInOrder> CinemaTicketsInOrders { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -48,6 +50,19 @@ namespace EShopCinema.Web.Data
                 .HasOne<EShopApplicationCinemaUser>(z => z.CinemaCartOwner)
                 .WithOne(sc => sc.CinemaCart)
                 .HasForeignKey<CinemaShoppingCart>(bt => bt.CartOwnerId);
+            
+            builder.Entity<CinemaTicketInOrder>()
+               .HasKey(z => new { z.CinemaTicketId, z.OrderId });
+
+            builder.Entity<CinemaTicketInOrder>()
+                .HasOne(z => z.OrderedCinemaTicket)
+                .WithMany(z => z.CinemaTicketInOrders)
+                .HasForeignKey(z => z.OrderId);
+
+            builder.Entity<CinemaTicketInOrder>()
+                .HasOne(z => z.UserOrder)
+                .WithMany(z => z.CinemaTicketInOrders)
+                .HasForeignKey(z => z.CinemaTicketId);
         }
     }
 }

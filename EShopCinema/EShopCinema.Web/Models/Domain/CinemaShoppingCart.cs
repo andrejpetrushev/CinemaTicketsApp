@@ -12,6 +12,7 @@ namespace EShopCinema.Web.Models.Domain
         public string CartOwnerId { get; set; }
         public virtual EShopApplicationCinemaUser CinemaCartOwner { get; set; }
         public virtual ICollection<CinemaTicketInShoppingCart> Tickets { get; set; }
+        public virtual ICollection<CinemaTicketInShoppingCart> CinemaTicketInShoppingCarts { get; set; }
 
         public CinemaShoppingCart()
         {

@@ -187,3 +187,4 @@ C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Deb
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\CinemaTickets\AddTicketToCard.cshtml.g.cs
+C:\Users\PC\source\repos\Domashna1_IS_181033\EShopCinema\EShopCinema.Web\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\ShoppingCart.cshtml.g.cs

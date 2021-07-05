@@ -8,7 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using EShopCinema.Web.Data;
 using EShopCinema.Web.Models.Domain;
 using EShopCinema.Web.Models.DTO;
+using EShopCinema.Web.Models.Identity;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
 
 namespace EShopCinema.Web.Controllers
 {
@@ -62,8 +64,13 @@ namespace EShopCinema.Web.Controllers
                         TicketsQuantity = item.Quantity
                     };
 
-                    _context.Add(itemToAdd);
-                    await _context.SaveChangesAsync();
+                    //var existingTicketItem = await _context.CinemaTicketInShoppingCarts.Where()
+
+                    //if(existingTicketItem == null)
+                    //{
+                        _context.Add(itemToAdd);
+                        await _context.SaveChangesAsync();
+                    //}                    
                 }
                 return RedirectToAction("Index", "CinemaTickets");
             }

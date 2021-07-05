@@ -30,6 +30,8 @@ namespace EShopCinema.Web.Models.Domain
 
         public virtual ICollection<CinemaTicketInShoppingCart> CinemaShoppingCarts { get; set; }
 
+        public virtual ICollection<CinemaTicketInOrder> CinemaTicketInOrders { get; set; }
+
         public TicketCinema()
         {
 
